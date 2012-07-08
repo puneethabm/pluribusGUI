@@ -1,6 +1,7 @@
 pluribusGUI
 ===========
 
+GUI
 index.php is the initial file
 
 To add new menu:
