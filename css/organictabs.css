@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+
+* { margin: 0; padding: 0;}
+body { font: 12px Georgia, serif; }
+html { overflow-y: scroll; }
+a { text-decoration: none; }
+a:focus { outline: 0; }
+p { font-size: 15px; margin: 0 0 20px 0; }
+#page-wrap { width: 440px; margin: 80px auto; }
+h1 { font: bold 40px Sans-Serif; margin: 0 0 20px 0; }
+
+/* Generic Utility */
+.hide { position: absolute; top: -9999px; left: -9999px; }
+
+
+
+/* Specific to Tab-view */
+
+#tab-view .list-wrap { background: #eee; padding: 10px; margin: 0 0 15px 0; }
+
+#tab-view ul { list-style: none; }
+#tab-view ul li a { display: block; border-bottom: 1px solid #666; padding: 4px; color: #666; }
+#tab-view ul li a:hover { background: #333; color: white; }
+#tab-view ul li:last-child a { border: none; }
+
+#tab-view .nav { overflow: hidden; }
+#tab-view .nav li { width: 97px; float: left; margin: 0 10px 0 0; }
+#tab-view .nav li.last { margin-right: 0; }
+#tab-view .nav li a { display: block; padding: 5px; background: #666; color: white; font-size: 12px; text-align: center; border: 0; }
+
+#tab-view li a.current,#tab-view li a.current:hover { background-color: #eee !important; color: black; }
+#tab-view .nav li a:hover, #tab-view .nav li a:focus { background: #999;}
+
