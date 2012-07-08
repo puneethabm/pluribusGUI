@@ -7,7 +7,7 @@ index.php is the initial file
 To add new menu:
 Ex: Show Statistics
 Inside 
-"<ul class="nav">
+&ltul class="nav"&gt
 </ul>"
 
 Place the following
